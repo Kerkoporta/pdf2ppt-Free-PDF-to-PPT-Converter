@@ -1,5 +1,6 @@
 # pdf2ppt-Free-PDF-to-PPT-Converter
-中文: 智能PDF转PPT工具 - 保持原始布局，支持表格识别，文本可编辑的精准转换工具  English: Intelligent PDF to PPT Converter - Preserves original layout with table recognition and editable text conversion
+中文: 智能PDF转PPT工具 - 保持原始布局，支持表格识别，文本可编辑的精准转换工具  English: Intelligent PDF to PPT Converter - Preserves original layout with editable text conversion
+
 MARKDOWN
 # 📄 PDF to PPT Converter
 
@@ -98,6 +99,10 @@ try:
         print("转换失败!")
 except Exception as e:
     print(f"错误: {e}")
+⚠️ 注意事项
+目前主要支持文本和图片内容的转换
+复杂的PDF格式可能需要手动调整
+建议在使用前备份原始文件
 🤝 贡献
 欢迎提交Issue和Pull Request来改进这个项目！
 
@@ -113,58 +118,3 @@ Fork 本项目
 PyMuPDF - 优秀的PDF处理库
 python-pptx - 强大的PPTX生成库
 ⭐ 如果这个项目对您有帮助，请给它一个Star！
-
-TEXT
-
-## 📄 requirements.txt
-
-```txt
-PyMuPDF==1.23.8
-python-pptx==0.6.21
-📄 LICENSE (MIT许可证)
-TXT
-MIT License
-
-Copyright (c) 2024 PDF-to-PPT-Converter
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-🏷️ GitHub Topics
-TEXT
-pdf-to-ppt, pdf-converter, pptx-generator, python, tkinter-gui, 
-document-processing, office-automation, pdf-tools, powerpoint
-📌 .gitignore
-GITIGNORE
-__pycache__/
-*.pyc
-*.pyo
-*.pptx
-.DS_Store
-Thumbs.db
-.env
-venv/
-*.log
-test/
-🎯 项目亮点强调
-这个版本的特点是：
-
-轻量级 - 只有2个核心文件，依赖少
-稳定 - 专注于核心的PDF转PPT功能
-易用 - 提供图形界面和编程接口两种方式
-智能 - 自动过滤阴影图片，保持布局准确
-这样的README既专业又真实反映了您当前代码的功能水平，不会过度承诺但充分展示了项目的价值。
