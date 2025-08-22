@@ -1,7 +1,6 @@
 # pdf2ppt-Free-PDF-to-PPT-Converter
 中文: 智能PDF转PPT工具 - 保持原始布局，支持表格识别，文本可编辑的精准转换工具  English: Intelligent PDF to PPT Converter - Preserves original layout with editable text conversion
 
-MARKDOWN
 # 📄 PDF to PPT Converter
 
 [![Python](https://img.shields.io/badge/Python-3.7%2B-blue)](https://www.python.org/)
@@ -25,15 +24,17 @@ MARKDOWN
 
 ```bash
 pip install PyMuPDF python-pptx
-使用方法
-图形界面方式 (推荐):
+
+##使用方法
+1.图形界面方式 (推荐):
 BASH
 python pdf_to_ppt_tk.py
-命令行方式:
+2.命令行方式:
 PYTHON
 from pdf_to_ppt_core import pdf_to_ppt
 pdf_to_ppt("input.pdf", "output.pptx")
-📁 项目结构
+
+##📁 项目结构
 TEXT
 PDF-to-PPT-Converter/
 ├── pdf_to_ppt_tk.py      # 图形界面主程序
@@ -41,7 +42,8 @@ PDF-to-PPT-Converter/
 ├── requirements.txt      # 依赖包列表
 ├── README.md            # 项目说明文档
 └── LICENSE              # MIT许可证文件
-🔧 核心功能
+
+##🔧 核心功能
 pdf_to_ppt_core.py
 布局保持: 精确转换PDF页面尺寸到PPT
 文本提取: 提取文本块并保持字体样式
@@ -52,24 +54,28 @@ pdf_to_ppt_tk.py
 进度显示: 实时显示转换进度
 错误处理: 友好的错误提示信息
 自动命名: 根据PDF文件名自动生成PPTX文件名
-🛠️ 技术栈
+
+##🛠️ 技术栈
 PyMuPDF - PDF解析和处理
 python-pptx - PPTX文件生成
 Tkinter - 图形用户界面
 多线程处理 - 避免界面卡顿
-📊 转换效果
+
+##📊 转换效果
 功能	支持情况	说明
 文本转换	✅ 完全支持	保持字体、大小和位置
 图片转换	✅ 完全支持	自动过滤阴影图片
 布局保持	✅ 高度保持	1:1比例还原
 多页处理	✅ 支持	完整PDF文档转换
 批量处理	⚡ 通过GUI支持	逐个文件处理
-🎯 使用场景
+
+##🎯 使用场景
 将PDF报告转换为可编辑的PPT演示文稿
 学术论文和文档的格式转换
 商业文档的重新编辑和演示
 任何需要将PDF内容转换为PPT的场景
-⚙️ 安装
+
+##⚙️ 安装
 克隆项目：
 BASH
 git clone https://github.com/your-username/PDF-to-PPT-Converter.git
@@ -77,7 +83,8 @@ cd PDF-to-PPT-Converter
 安装依赖：
 BASH
 pip install -r requirements.txt
-🚀 使用方法
+
+##🚀 使用方法
 图形界面模式
 运行 python pdf_to_ppt_tk.py
 点击"浏览"选择PDF文件
@@ -99,11 +106,13 @@ try:
         print("转换失败!")
 except Exception as e:
     print(f"错误: {e}")
-⚠️ 注意事项
+
+##⚠️ 注意事项
 目前主要支持文本和图片内容的转换
 复杂的PDF格式可能需要手动调整
 建议在使用前备份原始文件
-🤝 贡献
+
+##🤝 贡献
 欢迎提交Issue和Pull Request来改进这个项目！
 
 Fork 本项目
@@ -111,10 +120,12 @@ Fork 本项目
 提交更改 (git commit -m 'Add some AmazingFeature')
 推送到分支 (git push origin feature/AmazingFeature)
 打开Pull Request
-📄 许可证
+
+##📄 许可证
 本项目采用 MIT 许可证 - 查看 LICENSE 文件了解详情
 
-🙏 致谢
+##🙏 致谢
 PyMuPDF - 优秀的PDF处理库
 python-pptx - 强大的PPTX生成库
-⭐ 如果这个项目对您有帮助，请给它一个Star！
+
+##⭐ 如果这个项目对您有帮助，请给它一个Star！
